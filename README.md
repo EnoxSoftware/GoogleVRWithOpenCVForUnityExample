@@ -9,21 +9,27 @@ Screen Shot
 Environment
 -----
 Windows 8.1  
-Unity 5.0.0f4  
-OpenCVForUnity2.0.0
+Unity 5.3.3f1  
+OpenCVForUnity2.0.0  
 Cardboard SDK for Unity v0.6
+
 
 Setup
 -----
-Create New Project CardboardMarkerBasedARSample
+Create New Project. (CardboardMarkerBasedARSample)
 
-* Import MarkerBased AR Sample from AssetStore  
 * Import OpenCVForUnity2.0.0 from AssetStore  
+* Import MarkerBased AR Sample1.1.5 from AssetStore  
 * Import CardboardSDKForUnity.unitypackage  
 * Import CardboardWithOpenCVForUnitySample.unitypackage 
 
-Change Product Name. CardboardMarkerBasedARSample
-Change PlayerSettings.bundleIdentifier. com.enoxsoftware.cardboardmarkerbasedarsample
+Change Product Name. (CardboardMarkerBasedARSample)  
+Change PlayerSettings.bundleIdentifier. (xxx.xxxxxxxxxxxxx.cardboardmarkerbasedarsample)
 
-Please add the “CardboardWithOpenCVForUnitySample scene” to “Scenes In Build” list in “Build Settings” window.
+Add the “Assets/CardboardWithOpenCVForUnitySample/Scenes/*.unity” to “Scenes In Build” list in “Build Settings” window.
 
+![ProjectWindow.jpg](ProjectWindow.jpg)  
+![MainCamera_Inspector.jpg](MainCamera_Inspector.jpg)  
+![CaedboardAdaptor_Inspector.jpg](CaedboardAdaptor_Inspector.jpg)  
+![CardboardMain_Inspector.jpg](CardboardMain_Inspector.jpg)  
+![ARCamera_Inspector.jpg](ARCamera_Inspector.jpg)  
