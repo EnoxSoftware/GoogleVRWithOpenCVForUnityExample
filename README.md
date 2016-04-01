@@ -16,17 +16,14 @@ Cardboard SDK for Unity v0.6
 
 Setup
 -----
-Create New Project. (CardboardMarkerBasedARSample)
-
+* Create New Project. (CardboardMarkerBasedARSample)
 * Import OpenCVForUnity2.0.0 from AssetStore  
 * Import MarkerBased AR Sample1.1.5 from AssetStore  
 * Import CardboardSDKForUnity.unitypackage  
 * Import CardboardWithOpenCVForUnitySample.unitypackage 
-
-Change Product Name. (CardboardMarkerBasedARSample)  
-Change PlayerSettings.bundleIdentifier. (xxx.xxxxxxxxxxxxx.cardboardmarkerbasedarsample)
-
-Add the “Assets/CardboardWithOpenCVForUnitySample/Scenes/*.unity” to “Scenes In Build” list in “Build Settings” window.
+* Change Product Name. (CardboardMarkerBasedARSample)  
+* Change PlayerSettings.bundleIdentifier. (xxx.xxxxxxx.cardboardmarkerbasedarsample)  
+* Add the “Assets/CardboardWithOpenCVForUnitySample/Scenes/*.unity” files to “Scenes In Build” list in “Build Settings” window.
 
 ![ProjectWindow.jpg](ProjectWindow.jpg)  
 ![MainCamera_Inspector.jpg](MainCamera_Inspector.jpg)  
