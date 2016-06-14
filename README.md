@@ -10,16 +10,16 @@ Environment
 -----
 Windows 8.1  
 Unity 5.3.3f1  
-OpenCVForUnity2.0.0  
+OpenCVForUnity2.0.4  
 Cardboard SDK for Unity v0.6
 
 
 Setup
 -----
 * Create New Project. (CardboardMarkerBasedARSample)
-* Import OpenCVForUnity2.0.0 from AssetStore  
+* Import OpenCVForUnity2.0.4 from AssetStore  
 * Import MarkerBased AR Sample1.1.7 from AssetStore  
-* Import CardboardSDKForUnity.unitypackage  
+* Import CardboardSDKForUnity0.6.unitypackage  
 * Import CardboardWithOpenCVForUnitySample.unitypackage 
 * Change Product Name. (CardboardMarkerBasedARSample)  
 * Change PlayerSettings.bundleIdentifier. (xxx.xxxxxxx.cardboardmarkerbasedarsample)  
