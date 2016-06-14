@@ -1,4 +1,4 @@
-Cardboard With OpenCVForUnity Sample
+﻿Cardboard With OpenCVForUnity Sample
 ====================
 
 Screen Shot
@@ -18,7 +18,7 @@ Setup
 -----
 * Create New Project. (CardboardMarkerBasedARSample)
 * Import OpenCVForUnity2.0.0 from AssetStore  
-* Import MarkerBased AR Sample1.1.5 from AssetStore  
+* Import MarkerBased AR Sample1.1.7 from AssetStore  
 * Import CardboardSDKForUnity.unitypackage  
 * Import CardboardWithOpenCVForUnitySample.unitypackage 
 * Change Product Name. (CardboardMarkerBasedARSample)  
