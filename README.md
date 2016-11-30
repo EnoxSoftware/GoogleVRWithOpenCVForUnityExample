@@ -32,3 +32,11 @@ Setup
 ![GvrMain_Inspector.jpg](GvrMain_Inspector.jpg)  
 ![GvrMain_Head_Inspector.jpg](GvrMain_Head_Inspector.jpg)  
 ![ARCamera_Inspector.jpg](ARCamera_Inspector.jpg)  
+
+
+Android Build
+-----
+[GoogleVRWithOpenCVForUnitySample.apk](GoogleVRWithOpenCVForUnitySample.apk)
+
+![marker.png](marker.png) 
+
