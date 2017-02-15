@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 #endif
 using OpenCVForUnity;
 
-namespace GoogleVRWithOpenCVForUnitySample
+namespace GoogleVRWithOpenCVForUnityExample
 {
     /// <summary>
     /// Show ARMarker.

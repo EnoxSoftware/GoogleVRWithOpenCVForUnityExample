@@ -2,20 +2,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using OpenCVMarkerBasedAR;
-using MarkerBasedARSample;
+using MarkerBasedARExample;
 using OpenCVForUnity;
 
 #if UNITY_5_3 || UNITY_5_3_OR_NEWER
 using UnityEngine.SceneManagement;
 #endif
 
-namespace GoogleVRWithOpenCVForUnitySample
+namespace GoogleVRWithOpenCVForUnityExample
 {
     /// <summary>
-    /// GoogleVR With OpenCVForUnity sample.
+    /// GoogleVR With OpenCVForUnity example.
     /// </summary>
     [RequireComponent (typeof(WebCamTextureToMatHelper))]
-    public class GoogleVRMarkerBasedARSample : MonoBehaviour
+    public class GoogleVRMarkerBasedARExample : MonoBehaviour
     {
 
         /// <summary>
@@ -226,7 +226,7 @@ namespace GoogleVRWithOpenCVForUnitySample
 
         void Update (){
 
-            if (webCamTextureToMatHelper.isPlaying () && webCamTextureToMatHelper.didUpdateThisFrame ()) {
+            if (webCamTextureToMatHelper.IsPlaying () && webCamTextureToMatHelper.DidUpdateThisFrame ()) {
                 ARGvrHead.trackRotation = true;
 
             }else{
@@ -237,7 +237,7 @@ namespace GoogleVRWithOpenCVForUnitySample
         void LateUpdate ()
         {
 
-            if (webCamTextureToMatHelper.isPlaying () && webCamTextureToMatHelper.didUpdateThisFrame ()) {
+            if (webCamTextureToMatHelper.IsPlaying () && webCamTextureToMatHelper.DidUpdateThisFrame ()) {
 
                 Mat rgbaMat = webCamTextureToMatHelper.GetMat ();
 
@@ -304,9 +304,9 @@ namespace GoogleVRWithOpenCVForUnitySample
         public void OnBackButton ()
         {
             #if UNITY_5_3 || UNITY_5_3_OR_NEWER
-            SceneManager.LoadScene ("GoogleVRWithOpenCVForUnitySample");
+            SceneManager.LoadScene ("GoogleVRWithOpenCVForUnityExample");
             #else
-            Application.LoadLevel ("GoogleVRWithOpenCVForUnitySample");
+            Application.LoadLevel ("GoogleVRWithOpenCVForUnityExample");
             #endif
         }
 

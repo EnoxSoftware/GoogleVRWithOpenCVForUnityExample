@@ -5,7 +5,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 #endif
 
-namespace GoogleVRWithOpenCVForUnitySample
+namespace GoogleVRWithOpenCVForUnityExample
 {
 
     public class ShowLicense : MonoBehaviour
@@ -26,9 +26,9 @@ namespace GoogleVRWithOpenCVForUnitySample
         public void OnBackButton ()
         {
             #if UNITY_5_3 || UNITY_5_3_OR_NEWER
-            SceneManager.LoadScene ("GoogleVRWithOpenCVForUnitySample");
+            SceneManager.LoadScene ("GoogleVRWithOpenCVForUnityExample");
             #else
-            Application.LoadLevel ("GoogleVRWithOpenCVForUnitySample");
+            Application.LoadLevel ("GoogleVRWithOpenCVForUnityExample");
             #endif
         }
     }

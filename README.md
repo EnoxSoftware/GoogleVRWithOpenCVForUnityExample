@@ -1,4 +1,4 @@
-﻿GoogleVR With OpenCVForUnity Sample
+﻿GoogleVR With OpenCVForUnity Example
 ====================
 
 Screen Shot
@@ -16,14 +16,14 @@ GVR Unity SDK v1.0.3
 
 Setup
 -----
-* Create New Project. (GoogleVRMarkerBasedARSample)
+* Create New Project. (GoogleVRMarkerBasedARExample)
 * Import OpenCVForUnity2.0.9 from AssetStore  
-* Import MarkerBased AR Sample1.1.9 from AssetStore  
+* Import MarkerBased AR Example1.2.0 from AssetStore  
 * Import GoogleVRForUnity.unitypackage  
-* Import GoogleVRWithOpenCVForUnitySample.unitypackage 
-* Change Product Name. (GoogleVRMarkerBasedARSample)  
-* Change PlayerSettings.bundleIdentifier. (xxx.xxxxxxx.googlevrmarkerbasedarsample)  
-* Add the “Assets/GoogleVRWithOpenCVForUnitySample/Scenes/*.unity” files to “Scenes In Build” list in “Build Settings” window.
+* Import GoogleVRWithOpenCVForUnityExample.unitypackage 
+* Change Product Name. (GoogleVRMarkerBasedARExample)  
+* Change PlayerSettings.bundleIdentifier. (xxx.xxxxxxx.googlevrmarkerbasedarexample)  
+* Add the “Assets/GoogleVRWithOpenCVForUnityExample/Scenes/*.unity” files to “Scenes In Build” list in “Build Settings” window.
 * Set In PlayerSettings, at the bottom under Settings for iOS, click Resolution and Presentation to expand that panel. Set the Default Orientation to Auto Rotation, and then uncheck all of the Allowed Orientations for Auto Rotation except for Landscape Left.
 
 ![ProjectWindow.jpg](ProjectWindow.jpg)  
@@ -36,7 +36,7 @@ Setup
 
 Android Build
 -----
-[GoogleVRWithOpenCVForUnitySample.apk](GoogleVRWithOpenCVForUnitySample.apk)
+[GoogleVRWithOpenCVForUnityExample.apk](GoogleVRWithOpenCVForUnityExample.apk)
 
 ![marker.png](marker.png) 
 

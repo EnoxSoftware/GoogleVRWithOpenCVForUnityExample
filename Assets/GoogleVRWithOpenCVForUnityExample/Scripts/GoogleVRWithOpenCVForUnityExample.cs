@@ -5,9 +5,9 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 #endif
 
-namespace GoogleVRWithOpenCVForUnitySample
+namespace GoogleVRWithOpenCVForUnityExample
 {
-    public class GoogleVRWithOpenCVForUnitySample : MonoBehaviour
+    public class GoogleVRWithOpenCVForUnityExample : MonoBehaviour
     {
         // Use this for initialization
         void Start ()
@@ -40,12 +40,12 @@ namespace GoogleVRWithOpenCVForUnitySample
             #endif
         }
 
-        public void OnGoogleVRMarkerBasedARSample ()
+        public void OnGoogleVRMarkerBasedARExample ()
         {
             #if UNITY_5_3 || UNITY_5_3_OR_NEWER
-            SceneManager.LoadScene ("GoogleVRMarkerBasedARSample");
+            SceneManager.LoadScene ("GoogleVRMarkerBasedARExample");
             #else
-            Application.LoadLevel ("GoogleVRMarkerBasedARSample");
+            Application.LoadLevel ("GoogleVRMarkerBasedARExample");
             #endif
         }
     }

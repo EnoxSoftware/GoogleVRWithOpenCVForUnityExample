@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-namespace GoogleVRWithOpenCVForUnitySample
+namespace GoogleVRWithOpenCVForUnityExample
 {
     [RequireComponent (typeof(Collider))]
     public class ColorChangeGvrResponder : MonoBehaviour, IGvrGazeResponder
