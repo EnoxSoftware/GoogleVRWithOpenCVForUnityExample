@@ -17,7 +17,7 @@ GVR Unity SDK v1.0.3
 Setup
 -----
 * Create New Project. (GoogleVRMarkerBasedARExample)
-* Import OpenCVForUnity2.0.9 from AssetStore  
+* Import OpenCVForUnity2.0.9 from AssetStore (if iOS platform, please use "OpenCVForUnity/Extra/ios_exclude_contrib.zip".)  
 * Import MarkerBased AR Example1.2.0 from AssetStore  
 * Import GoogleVRForUnity.unitypackage  
 * Import GoogleVRWithOpenCVForUnityExample.unitypackage 
