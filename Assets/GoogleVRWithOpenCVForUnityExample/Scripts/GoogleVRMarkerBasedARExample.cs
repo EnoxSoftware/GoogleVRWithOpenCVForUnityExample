@@ -19,9 +19,9 @@ namespace GoogleVRWithOpenCVForUnityExample
     {
 
         /// <summary>
-        /// The texture.
+        /// The Quad camera.
         /// </summary>
-        Texture2D texture;
+        public Camera QuadCamera;
 
         /// <summary>
         /// The AR camera.
@@ -32,6 +32,11 @@ namespace GoogleVRWithOpenCVForUnityExample
         /// The AR camera.
         /// </summary>
         public GvrHead ARGvrHead;
+
+        /// <summary>
+        /// The texture.
+        /// </summary>
+        Texture2D texture;
 
         /// <summary>
         /// The cam matrix.
@@ -112,9 +117,9 @@ namespace GoogleVRWithOpenCVForUnityExample
             float widthScale = (float)Screen.width / width;
             float heightScale = (float)Screen.height / height;
             if (widthScale < heightScale) {
-                Camera.main.orthographicSize = height / 2;
+                QuadCamera.orthographicSize = height / 2;
             } else {
-                Camera.main.orthographicSize = (width * (float)Screen.height / (float)Screen.width) / 2;
+                QuadCamera.orthographicSize = (width * (float)Screen.height / (float)Screen.width) / 2;
                 imageSizeScale = (float)Screen.height / (float)Screen.width;
             }
 
@@ -207,12 +212,12 @@ namespace GoogleVRWithOpenCVForUnityExample
 
         public IEnumerator resetCameraStatus(){
 
-            GvrViewer.Instance.DistortionCorrectionEnabled = !GvrViewer.Instance.DistortionCorrectionEnabled;
+            ToggleDistortionCorrection ();
 
             yield return null;
 
             GvrViewer.Instance.UpdateState();
-            GvrViewer.Instance.DistortionCorrectionEnabled = !GvrViewer.Instance.DistortionCorrectionEnabled;
+            ToggleDistortionCorrection ();
         }
 
 
@@ -347,8 +352,11 @@ namespace GoogleVRWithOpenCVForUnityExample
         }
 
         public void ToggleDistortionCorrection() {
-            GvrViewer.Instance.DistortionCorrectionEnabled =
-                !GvrViewer.Instance.DistortionCorrectionEnabled;
+            if (GvrViewer.Instance.DistortionCorrection != GvrViewer.DistortionCorrectionMethod.Unity) {
+                GvrViewer.Instance.DistortionCorrection = GvrViewer.DistortionCorrectionMethod.Unity;
+            } else {
+                GvrViewer.Instance.DistortionCorrection = GvrViewer.DistortionCorrectionMethod.None;
+            }
         }
 
         #if !UNITY_HAS_GOOGLEVR || UNITY_EDITOR
