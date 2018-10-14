@@ -10,7 +10,7 @@ Environment
 -----
 Windows 8.1  
 Unity 5.3.0f4  
-[OpenCVForUnity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088?aid=1011l4ehR)2.0.9  
+[OpenCVForUnity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088?aid=1011l4ehR) 2.0.9  
 GVR Unity SDK v1.0.3
 
 
